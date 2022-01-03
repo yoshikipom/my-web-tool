@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </AppBar>
 
       <div className="content">
-        <Container maxWidth="sm" sx={{ my: 2 }}>
+        <Container sx={{ my: 2 }}>
           <Component {...pageProps} />
         </Container>
       </div>
