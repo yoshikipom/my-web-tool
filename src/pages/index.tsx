@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
-import styles from '../../styles/Home.module.css'
 import Link from 'next/link';
-import { Grid, List, ListItem, ListItemIcon, ListItemText, Paper, Typography } from '@mui/material';
+import { List, ListItem, ListItemIcon, ListItemText, Paper, Typography } from '@mui/material';
 import FolderIcon from '@mui/icons-material/Folder';
 
 const Home: NextPage = () => {
